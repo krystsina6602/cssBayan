@@ -1,0 +1,39 @@
+body {
+     
+}
+
+.wrapper {
+    background-color: lavender;
+}
+
+h1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.mems {
+    background-color: lavender;
+    color: blue;
+    cursor: pointer;
+    
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.mems:hover {
+    color: black;
+}
+
+.mems__pic {
+    padding: 0 18px;
+    background-color: lavender;
+    overflow: hidden;
+}
+
+.mems__pic:active {
+    transition: max-height 0.2s ease-out;
+}
+
